@@ -12,6 +12,10 @@ function Load()
 		pPrint("World Fighters Found.")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/thestackersudo/WF/main/main.lua"))()
 	end,
+	["77747658251236"] = function()
+		pPrint("Sailor Piece Found.")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/thestackersudo/SP/main/main.lua"))()
+	end,
 	default = function()
 		pPrint("Game not Found.")
 	end
