@@ -3,6 +3,7 @@ function pPrint(text)
 end
 
 function Load() 
+	repeat task.wait() until game:IsLoaded()
 	local switch = {
 	["92416421522960"] = function() 
 		pPrint("Slime RNG Found.")
